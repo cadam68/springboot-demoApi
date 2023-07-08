@@ -49,10 +49,12 @@ public class StudentController {
         return studentResponseList;
     }
 
+    /*
     @RequestMapping("/env")
     public @ResponseBody Map<String, String> env() {
         return System.getenv();
     }
+    /* */
 
 
 }
